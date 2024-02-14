@@ -1,0 +1,40 @@
+{
+    "name": "python3-prebuilt",
+    "version": "3.10.2",
+    "port-version": 1,
+    "description": "The Python programming language",
+    "homepage": "https://github.com/python/cpython",
+    "license": "Python-2.0",
+    "supports": "!uwp & windows & x64",
+    "dependencies": [
+      {
+        "name": "bzip2",
+        "platform": "!(windows & static)"
+      },
+      {
+        "name": "expat",
+        "platform": "!static"
+      },
+      {
+        "name": "libffi",
+        "platform": "!(windows & static)"
+      },
+      {
+        "name": "liblzma",
+        "platform": "!(windows & static)"
+      },
+      {
+        "name": "openssl-prebuilt",
+        "platform": "!(windows & static)"
+      },
+      {
+        "name": "sqlite3",
+        "platform": "!(windows & static)"
+      },
+      {
+        "name": "zlib",
+        "platform": "!static"
+      }
+    ]
+  }
+  

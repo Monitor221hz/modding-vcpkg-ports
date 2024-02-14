@@ -1,0 +1,129 @@
+{
+    "versions": [
+        {
+            "git-tree": "c5a8904f86744b3b15f97fea64bce897eb3d9c2e",
+            "version-semver": "3.7.0",
+            "port-version": 0
+        },
+        {
+            "git-tree": "3c7564a8339422b4e502188e3c48d19e629eac76",
+            "version-semver": "3.6.0",
+            "port-version": 0
+        },
+        {
+            "git-tree": "a44557f4e40329b8c92c355f1afea1f8c41dc5e6",
+            "version-semver": "3.5.6",
+            "port-version": 0
+        },
+        {
+            "git-tree": "bbd789b864b8c48689a49a9eb2682a22fb244513",
+            "version-semver": "3.5.5",
+            "port-version": 0
+        },
+        {
+            "git-tree": "06d49e746cfbdd8d0c8d2738238f997902de67d2",
+            "version-semver": "3.5.4",
+            "port-version": 0
+        },
+        {
+            "git-tree": "83af9875a25a7d883de5492a40b418035f583e03",
+            "version-semver": "3.5.3",
+            "port-version": 0
+        },
+        {
+            "git-tree": "f264f98700f5f4ed3f5a3fa6d602d81d388e576a",
+            "version-semver": "3.5.2",
+            "port-version": 0
+        },
+        {
+            "git-tree": "6f95956a3d0b424ff9cbb84c3c24af21b476aed6",
+            "version-semver": "3.5.1",
+            "port-version": 0
+        },
+        {
+            "git-tree": "9eb204d289d38325652c74821efb990f1b865add",
+            "version-semver": "3.5.0",
+            "port-version": 1
+        },
+        {
+            "git-tree": "aa3b9f48dc3df5c02f903709151d74c9b9f031a0",
+            "version-semver": "3.5.0",
+            "port-version": 0
+        },
+        {
+            "git-tree": "1edfb18158af7f37550e5df9b7632b1e60ddc317",
+            "version-semver": "3.4.0",
+            "port-version": 1
+        },
+        {
+            "git-tree": "9d0d8fec4dc05443ca062172da84ca87ed3fd809",
+            "version-semver": "3.4.0",
+            "port-version": 0
+        },
+        {
+            "git-tree": "c7f1a82336de722c457f14bbf9f54a1edef6be4c",
+            "version-semver": "3.3.1",
+            "port-version": 0
+        },
+        {
+            "git-tree": "599a4566bedaf16321b94778b2a391e66d78f784",
+            "version-semver": "3.3.0",
+            "port-version": 0
+        },
+        {
+            "git-tree": "5d651e15aa388d76e57d9c77242b6e409d7c92e9",
+            "version-semver": "3.2.4",
+            "port-version": 1
+        },
+        {
+            "git-tree": "cb0674d2bd71ac2c7fc5884bde77e3b8b8cf340b",
+            "version-semver": "3.2.4",
+            "port-version": 0
+        },
+        {
+            "git-tree": "7e74bc223ae9be18c1c4acbe0118b99198b4939d",
+            "version-semver": "3.2.3",
+            "port-version": 0
+        },
+        {
+            "git-tree": "df8c42dbb7e3ac0809585b7fc83467161fe76dd0",
+            "version-semver": "3.2.2",
+            "port-version": 0
+        },
+        {
+            "git-tree": "6cdaba79fc06a7baa3e0313e6e37644ad9d06951",
+            "version-semver": "3.2.1",
+            "port-version": 0
+        },
+        {
+            "git-tree": "fe03914dd318ce500464d68b71a9057748ece982",
+            "version-semver": "3.1.0",
+            "port-version": 0
+        },
+        {
+            "git-tree": "c1547610829c97385a3cf65a851b0cd02211d093",
+            "version-semver": "3.0.1",
+            "port-version": 0
+        },
+        {
+            "git-tree": "267b918dc9c9ed6d6c5a127334541762d55c2863",
+            "version-semver": "3.0.0",
+            "port-version": 0
+        },
+        {
+            "git-tree": "9626c09c4bc44ec85053ee17ac0b30d7e205b614",
+            "version-semver": "2.1.0",
+            "port-version": 0
+        },
+        {
+            "git-tree": "0b7debd1920cfeb672ddc6d65970f72c0e718866",
+            "version-semver": "2.0.0",
+            "port-version": 0
+        },
+        {
+            "git-tree": "54a4d36661bd283abf50b1db75771427b02aef98",
+            "version-semver": "1.0.0",
+            "port-version": 0
+        }
+    ]
+}

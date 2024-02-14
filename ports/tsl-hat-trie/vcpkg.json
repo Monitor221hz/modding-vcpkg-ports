@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+    "name": "tsl-hat-trie",
+    "version-string": "0.6.0",
+    "description": "Trie implementation based on the \"HAT-trie: A Cache-conscious Trie-based Data Structure for Strings.\"",
+    "homepage": "https://github.com/Tessil/hat-trie",
+    "license": "MIT",
+    "dependencies": [
+      {
+        "name": "vcpkg-cmake-config",
+        "host": true
+      }
+    ]
+  }
+  

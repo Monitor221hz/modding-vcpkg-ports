@@ -1,15 +1,17 @@
 vcpkg_from_github(
-        OUT_SOURCE_PATH SOURCE_PATH
-        REPO CharmedBaryon/CommonLibSSE
-        REF c4ab853d095e81e3390b282d7ba01ab2f24ebf25
-        SHA512  fd615c16f8f2c637cad5ed9d139c776d21314664f4084a62231645114d03ee74e720c1ecf09b4e5daa5d56d418374ad6d587806788d95af8ac08ce3de930015b
-        HEAD_REF main
+  OUT_SOURCE_PATH SOURCE_PATH
+  REPO color-glass/CommonLibSSE
+  REF f49fdb480fed960b88b79fd23f9ad2d5a169db0e
+  SHA512 fe2fe6a5cba463f5e18566e528e25c86b33b093604bc578ef12da575beac78d7cc29e91b5e84ab8c2f5127fec5960b47654e3b01c812107398e6aed949582b9f
+  HEAD_REF master
 )
+
+set(VCPKG_POLICY_EMPTY_PACKAGE enabled)
 
 vcpkg_configure_cmake(
         SOURCE_PATH "${SOURCE_PATH}"
         PREFER_NINJA
-        OPTIONS -DENABLE_SKYRIM_AE=off -DENABLE_SKYRIM_VR=off -DBUILD_TESTS=off -DSKSE_SUPPORT_XBYAK=on
+        OPTIONS -DSKSE_SUPPORT_XBYAK=on
 )
 
 vcpkg_install_cmake()
@@ -18,7 +20,6 @@ vcpkg_copy_pdbs()
 
 file(GLOB CMAKE_CONFIGS "${CURRENT_PACKAGES_DIR}/share/CommonLibSSE/CommonLibSSE/*.cmake")
 file(INSTALL ${CMAKE_CONFIGS} DESTINATION "${CURRENT_PACKAGES_DIR}/share/CommonLibSSE")
-file(INSTALL "${SOURCE_PATH}/cmake/CommonLibSSE.cmake" DESTINATION "${CURRENT_PACKAGES_DIR}/share/CommonLibSSE")
 
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/share/CommonLibSSE/CommonLibSSE")

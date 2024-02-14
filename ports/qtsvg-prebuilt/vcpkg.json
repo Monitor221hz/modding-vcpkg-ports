@@ -1,0 +1,11 @@
+{
+    "name": "qtsvg-prebuilt",
+    "version": "6.2.4",
+    "description": "Qt SVG",
+    "homepage": "https://www.qt.io/",
+    "license": "LGPL-3.0",
+    "supports": "!static & x64 & windows",
+    "dependencies": [
+        "qtbase-prebuilt"
+    ]
+}

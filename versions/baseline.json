@@ -1,7 +1,135 @@
 {
     "default": {
+        "articuno": {
+            "baseline": "0.0.1",
+            "port-version": 2
+        },
+        "bethesda-fallout4-scripts": {
+            "baseline": "1.10.163",
+            "port-version": 2
+        },
+        "bethesda-skyrim-scripts": {
+            "baseline": "1.6.353",
+            "port-version": 2
+        },
+        "champollion": {
+            "baseline": "1.1.0",
+            "port-version": 0
+        },
+        "commonlibf4": {
+            "baseline": "2022-10-17",
+            "port-version": 0
+        },
+        "commonlibsse": {
+            "baseline": "2023-04-24",
+            "port-version": 0
+        },
+        "commonlibsse-ng": {
+            "baseline": "3.7.0",
+            "port-version": 0
+        },
+        "commonlibsse-ng-ae": {
+            "baseline": "3.7.0",
+            "port-version": 0
+        },
+        "commonlibsse-ng-flatrim": {
+            "baseline": "3.7.0",
+            "port-version": 0
+        },
+        "commonlibsse-ng-prebuilt": {
+            "baseline": "3.2.3",
+            "port-version": 1
+        },
         "commonlibsse-ng-se": {
-            "baseline": "4.0.0",
+            "baseline": "3.7.0",
+            "port-version": 0
+        },
+        "commonlibsse-ng-vr": {
+            "baseline": "3.7.0",
+            "port-version": 0
+        },
+        "commonlibsse-po3-ae": {
+            "baseline": "2023-05-11",
+            "port-version": 0
+        },
+        "commonlibsse-po3-se": {
+            "baseline": "2023-05-11",
+            "port-version": 0
+        },
+        "commonlibvr": {
+            "baseline": "2023-05-12",
+            "port-version": 0
+        },
+        "f4se": {
+            "baseline": "0.6.23",
+            "port-version": 0
+        },
+        "fully-dynamic-game-engine": {
+            "baseline": "0.3.0",
+            "port-version": 0
+        },
+        "gluino": {
+            "baseline": "0.0.1",
+            "port-version": 1
+        },
+        "hoshi": {
+            "baseline": "0.0.1",
+            "port-version": 1
+        },
+        "openssl-prebuilt": {
+            "baseline": "3.0.2",
+            "port-version": 1
+        },
+        "pybind11-prebuilt": {
+            "baseline": "2.9.2",
+            "port-version": 0
+        },
+        "python3-prebuilt": {
+            "baseline": "3.10.2",
+            "port-version": 1
+        },
+        "qtbase-prebuilt": {
+            "baseline": "6.2.4",
+            "port-version": 0
+        },
+        "qtdeclarative-prebuilt": {
+            "baseline": "6.2.4",
+            "port-version": 0
+        },
+        "qtimageformats-prebuilt": {
+            "baseline": "6.2.4",
+            "port-version": 0
+        },
+        "qtmultimedia-prebuilt": {
+            "baseline": "6.2.4",
+            "port-version": 0
+        },
+        "qtsvg-prebuilt": {
+            "baseline": "6.2.4",
+            "port-version": 0
+        },
+        "qttools-prebuilt": {
+            "baseline": "6.2.4",
+            "port-version": 0
+        },
+        "qtwebengine-prebuilt": {
+            "baseline": "6.2.4",
+            "port-version": 0
+        },
+        "qtwebview-prebuilt": {
+            "baseline": "6.2.4",
+            "port-version": 0
+        },
+        "script-extender-common": {
+            "baseline": "2.1.5",
+            "port-version": 0
+        },
+        "skse": {
+            "baseline": "2.2.3",
+            "port-version": 0
+        },
+        "tsl-hat-trie": {
+            "baseline": "0.6.0",
             "port-version": 0
         }
     }

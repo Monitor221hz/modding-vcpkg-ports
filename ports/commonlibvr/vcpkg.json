@@ -1,10 +1,10 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
-  "name": "commonlibsse-ng-se",
-  "version-semver": "3.7.0",
+  "name": "commonlibvr",
+  "version-date": "2023-05-12",
   "port-version": 0,
-  "description": "A reverse engineered resource for developing SKSE plugins, supporting portable plugins that work across AE, SE, and VR.",
-  "homepage": "https://github.com/CharmedBaryon/CommonLibSSE",
+  "description": "A reverse engineered resource for developing SKSE plugins for Skyrim Special Edition/VR",
+  "homepage": "https://github.com/alandtse/CommonLibVR",
   "license": "MIT",
   "supports": "windows & x64",
   "dependencies": [
@@ -12,8 +12,9 @@
       "name": "vcpkg-cmake-config",
       "host": true
     },
+    "boost-stl-interfaces",
     "fmt",
-    "rapidcsv",
+    "rsm-binary-io",
     "spdlog",
     "xbyak"
   ]

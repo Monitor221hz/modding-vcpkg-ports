@@ -1,0 +1,14 @@
+{
+    "name": "qtbase-prebuilt",
+    "version": "6.2.4",
+    "description": "Qt Application Framework Base Module. Includes Core, GUI, Widgets, Networking, SQL, Concurrent and other essential qt components.",
+    "homepage": "https://www.qt.io/",
+    "license": "LGPL-3.0",
+    "supports": "!static & x64 & windows",
+    "dependencies": [
+        "double-conversion",
+        "icu",
+        "pcre2",
+        "zlib"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+    "name": "bethesda-fallout4-scripts",
+    "version-string": "1.10.163",
+    "port-version": 2,
+    "description": "Papyrus script sources for Fallout 4.",
+    "homepage": "https://bethesda.net/"
+}

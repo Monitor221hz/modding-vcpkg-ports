@@ -1,0 +1,8 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+    "name": "bethesda-skyrim-scripts",
+    "version-string": "1.6.353",
+    "port-version": 2,
+    "description": "Papyrus script sources for Skyrim Special Edition.",
+    "homepage": "https://bethesda.net/"
+}

@@ -1,0 +1,90 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+    "name": "fully-dynamic-game-engine",
+    "version-semver": "0.3.0",
+    "port-version": 0,
+    "description": "Static library of supplemental utility features for SKSE64/CommonLibSSE plugin developers.",
+    "homepage": "https://www.skyrimng.com",
+    "license": "Apache-2.0",
+    "supports": "windows & x64",
+    "dependencies": [
+        {
+            "name": "vcpkg-cmake-config",
+            "host": true
+        }
+    ],
+    "features": {
+        "trueflame": {
+            "description": "Builds the Trueflame library for high level development on raw SKSE/CommonLibSSE.",
+            "dependencies": [
+                "articuno",
+                "commonlibsse-ng",
+                "efsw",
+                "gluino",
+                "hoshi",
+                "metrohash",
+                "spdlog",
+                "srell"
+            ]
+        },
+        "black-book": {
+            "description": "Builds the Black Book components (Fully Dynamic Game Engine.dll).",
+            "dependencies": [
+                {
+                    "name": "boost-iostreams",
+                    "default-features": false,
+                    "features": [
+                        "zlib",
+                        "zstd"
+                    ]
+                },
+                "boost-stacktrace",
+                {
+                    "host": true,
+                    "name": "commonlibsse-ng"
+                },
+                "cpp-peglib",
+                {
+                    "name": "fully-dynamic-game-engine",
+                    "default-features": false,
+                    "features": [
+                        "trueflame"
+                    ]
+                },
+                "inja",
+                "lua",
+                "openvr",
+                "pcg",
+                "pybind11",
+                "qtdeclarative",
+                "qtimageformats",
+                "qtshadertools",
+                "qtmultimedia",
+                "qtsvg",
+                "tsl-hat-trie",
+                "tsl-ordered-map"
+            ]
+        },
+        "black-book-scripts": {
+            "description": "Provides copies of Black Book's Papyrus script sources, for developing on top of Black Book."
+        },
+        "hopesfire": {
+            "description": "Builds the Hopesfire library for high level development on top of Fully Dynamic Game Engine.",
+            "dependencies": [
+                {
+                    "name": "fully-dynamic-game-engine",
+                    "default-features": false,
+                    "features": [
+                        "black-book"
+                    ]
+                }
+            ]
+        }
+    },
+    "default-features": [
+        "trueflame",
+        "black-book",
+        "black-book-scripts",
+        "hopesfire"
+    ]
+}

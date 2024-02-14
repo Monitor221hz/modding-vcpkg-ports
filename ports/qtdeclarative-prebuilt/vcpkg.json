@@ -1,0 +1,11 @@
+{
+    "name": "qtdeclarative-prebuilt",
+    "version": "6.2.4",
+    "description": "Qt Declarative (Quick 2)",
+    "homepage": "https://www.qt.io/",
+    "license": "LGPL-3.0",
+    "supports": "!static & x64 & windows",
+    "dependencies": [
+        "qtbase-prebuilt"
+    ]
+}

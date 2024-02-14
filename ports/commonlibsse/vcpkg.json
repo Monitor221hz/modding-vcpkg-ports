@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+  "name": "commonlibsse",
+  "version-string": "2023-04-24",
+  "description": "A reverse engineered resource for developing SKSE plugins for Skyrim Special Edition",
+  "homepage": "https://github.com/Ryan-rsm-McKenzie/CommonLibSSE",
+  "license": "MIT",
+  "supports": "windows & x64",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    },
+    "boost-stl-interfaces",
+    "fmt",
+    "rsm-binary-io",
+    "spdlog",
+    "xbyak"
+  ]
+}

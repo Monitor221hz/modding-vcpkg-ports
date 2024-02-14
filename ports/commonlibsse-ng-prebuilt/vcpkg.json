@@ -1,8 +1,8 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
-  "name": "commonlibsse-ng-se",
-  "version-semver": "3.7.0",
-  "port-version": 0,
+  "name": "commonlibsse-ng-prebuilt",
+  "version-semver": "3.2.3",
+  "port-version": 1,
   "description": "A reverse engineered resource for developing SKSE plugins, supporting portable plugins that work across AE, SE, and VR.",
   "homepage": "https://github.com/CharmedBaryon/CommonLibSSE",
   "license": "MIT",
@@ -12,9 +12,10 @@
       "name": "vcpkg-cmake-config",
       "host": true
     },
+    "boost-stl-interfaces",
+    "fast-cpp-csv-parser",
     "fmt",
-    "rapidcsv",
-    "spdlog",
-    "xbyak"
+    "rsm-binary-io",
+    "spdlog"
   ]
 }
