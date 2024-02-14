@@ -1,5 +1,5 @@
-# Color-Glass Studios Vcpkg Repository
-This is a repository of Color-Glass software and related third-party libraries for use with Vcpkg.
+# Vcpkg Repository (Forked By Monitor From Color-Glass Studios)
+This is a (forked) repository of Color-Glass software and related third-party libraries for use with Vcpkg. It contains unofficial defined bleeding edge versions for commonlib ng. Use at your own peril, as I don't know what I'm doing exactly.
 
 ## Use in Manifest Mode
 To add to your project create a file in the root of your project (next to `vcpkg.json`) called
