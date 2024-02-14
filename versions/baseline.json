@@ -28,6 +28,10 @@
             "baseline": "3.7.0",
             "port-version": 0
         },
+        "commonlibsse-ng-latest": {
+            "baseline": "4.0.0",
+            "port-version": 0
+        },
         "commonlibsse-ng-ae": {
             "baseline": "3.7.0",
             "port-version": 0
@@ -42,10 +46,6 @@
         },
         "commonlibsse-ng-se": {
             "baseline": "3.7.0",
-            "port-version": 0
-        },
-        "commonlibsse-ng-se-latest": {
-            "baseline": "4.0.0",
             "port-version": 0
         },
         "commonlibsse-ng-vr": {
