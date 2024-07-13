@@ -4,7 +4,7 @@
   "version-semver": "4.0.0",
   "port-version": 0,
   "description": "A reverse engineered resource for developing SKSE plugins, supporting portable plugins that work across AE, SE, and VR.",
-  "homepage": "https://github.com/CharmedBaryon/CommonLibSSE",
+  "homepage": "https://github.com/alandtse/CommonLibVR",
   "license": "MIT",
   "supports": "windows & x64",
   "dependencies": [
