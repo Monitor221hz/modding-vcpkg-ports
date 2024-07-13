@@ -19,6 +19,7 @@ To add to your project create a file in the root of your project (next to `vcpkg
         "commonlibf4"
         "commonlibsse",
         "commonlibsse-ng",
+        "commonlibsse-ng-fork",
         "commonlibsse-ng-ae",
         "commonlibsse-ng-flatrim",
         "commonlibsse-ng-prebuilt",
@@ -53,6 +54,8 @@ file to use will be located in your Vcpkg root directory rather than your projec
 Several ports provide variants of CommonLibSSE, a static library for developing Skyrim SKSE plugins. The `commonlibsse` package builds the [official upstream version of CommonLibSSE](https://github.com/Ryan-rsm-McKenzie/CommonLibSSE). This package currently can only target Skyrim runtimes from post-Anniversary Edition era. `commonlibvr` is a [fork which is created specifically for Skyrim VR](https://github.com/alandtse/CommonLibVR). Note that upstream CommonLibSSE is not versioned, so the versioning for these packages are the date of the latest commit at the time the port is updated. The popular [fork of CommonLibSSE by powerof3](https://github.com/powerof3/CommonLibSSE) is also supported. This fork has some additional content and can be compiled to support either AE or SE versions of Skyrim. To use its AE build, use the port `commonlibsse-po3-ae`. The SE build is available as `commonlibsse-po3-se`.
 
 `commonlibsse-ng` provides the Skyrim NG project's fork of CommonLibSSE ([CommonLibSSE NG](https://github.com/CharmedBaryon/CommonLibSSE-NG)). This tracks the upstream changes, but keeps the support for pre-AE Skyrim runtimes (commonly called simply "SE"), as well as adding full support for VR. This version of CommonLibSSE can make a runtime determination of which Skyrim executable is in use, allowing SKSE plugins that work across AE, SE and VR in one build. For versions optimized for (but only supporting) one runtime, you can use `commonlibsse-ng-ae` or `commonlibsse-ng-se`. `commonlibsse-ng-vr` provides a VR-specific build, which provides direct access to all features from CommonLibVR. A version that excludes VR support but supports both AE and SE with a single build is available as `commonlibsse-ng-flatrim`. To learn more about handling multiple Skyrim runtime targets with CommonLibSSE NG, [read its README](https://github.com/CharmedBaryon/CommonLibSSE-NG/blob/feature/vr-support/README.md#targeting-multiple-runtimes). Unlike the other forks, CommonLibSSE NG uses semantic version numbers, starting with version `1.0.0`, and is intended to only ever be used from cut releases distributed from this repository.
+
+`commonlibsse-ng-fork` is a forked project of CommonLibSSE NG that contains many enhancements to VR as well as updates to the NG branch, while maintaining the same benefits of the origin `commonlibsse-ng` library. It is recommended to be used for developers that need a more recently updated version of CommonLibSSE NG (as of 13-07-2024).
 
 Depending on your hardware, CommonLibSSE may take significant compile time. To save time you can use prebuilt versions of CommonLibSSE NG with the `commonlibsse-ng-prebuilt` package. This is available only for static linkage, in both static and dynamic CRT linkage versions. However, dynamic CRT linkage (e.g. with the `x64-windows-static-md` triplet) is strongly recommended for maximum compatibility.
 
