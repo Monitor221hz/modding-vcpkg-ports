@@ -1,9 +1,9 @@
 vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
-        REPO CharmedBaryon/CommonLibSSE
-        REF 2f31b6ae9c100cbff2a6d82e8673ac99ce8a4918
-        SHA512  2cc5c377cd6e2e825ff07928404b750a4c9109a6f904f698014db92778a33302ba2524271d1723cf133755fc9b215df600e524971987eb07ca0ff93f7657e77a
-        HEAD_REF main
+        REPO alandtse/CommonLibVR
+        REF 17a7b17d1daf8e2277f93e70b5a0d88efb420250
+        SHA512  0
+        HEAD_REF ng
 )
 
 vcpkg_configure_cmake(
