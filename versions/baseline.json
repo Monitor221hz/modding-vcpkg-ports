@@ -28,7 +28,7 @@
             "baseline": "3.7.0",
             "port-version": 0
         },
-        "commonlibsse-ng-latest": {
+        "commonlibsse-ng-fork": {
             "baseline": "2024-07-06",
             "port-version": 0
         },
