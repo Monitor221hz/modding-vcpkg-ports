@@ -5,17 +5,6 @@ vcpkg_from_github(
         SHA512  c96f42288d2fb3dcc071498217c6cc0de83629078648e1b90738bcff4d496fda99f01bbd55f43046ec531acce66e0472d9316eb9eebee427b3793d2c3fb4d690
         HEAD_REF ng
 )
-
-vcpkg_configure_cmake(
-        SOURCE_PATH "${SOURCE_PATH}"
-        PREFER_NINJA
-        OPTIONS -DBUILD_TESTS=off -DSKSE_SUPPORT_XBYAK=on
-)
-
-vcpkg_install_cmake()
-vcpkg_cmake_config_fixup(PACKAGE_NAME CommonLibSSE CONFIG_PATH lib/cmake)
-vcpkg_copy_pdbs()
-
 vcpkg_configure_cmake(
     SOURCE_PATH "${SOURCE_PATH}"
     PREFER_NINJA
