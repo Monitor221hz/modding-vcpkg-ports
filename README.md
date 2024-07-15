@@ -10,8 +10,8 @@ To add to your project create a file in the root of your project (next to `vcpkg
   "registries": [
     {
       "kind": "git",
-      "repository": "https://gitlab.com/colorglass/vcpkg-colorglass",
-      "baseline": "70edd3a6927bb508e8fa06f55c750a86e407a065",
+      "repository": "https://github.com/Monitor221hz/modding-vcpkg-ports",
+      "baseline": "190a7e0768c63893a354b6f6dfabbebb6f8166de",
       "packages": [
         "articuno",
         "bethesda-fallout4-scripts",
